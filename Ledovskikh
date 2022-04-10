@@ -1,0 +1,8 @@
+
+  function(distance, ele, event){
+   ele.style.opacity = (500 - distance) / 500;
+   ele.style.transform = 'scale(' + (500 - distance) / 500 + ')';
+  }
+  function (distance, ele, event) {
+   ele.style.opacity = 0;
+  }
